@@ -12,6 +12,20 @@
 This program is heavily based on the MIT-licensed Trezor source code, and as
 such is released under the MIT license.
 
+# Motivation
+
+When working with bitcoin, standards are your friend. This program solves the
+specific problem of generating a secure BIP39 mnemonic with optional
+passphrase. It uses derivation routines from the secure Trezor hardware wallet.
+This is useful for cross-verifying other BIP39 generators such as the one at
+https://dcpos.github.io/bip39/, verifying a hardware Trezor device, or
+generating multiple BIP39 wallets on independent systems using independent
+software stacks for use in a BIP32 multisig fund, as supported by Electrum.
+
+## Liability
+
+There is no liability to the author. Use at your own risk.
+
 # Usage/Example
 
     ./bip39-cli
