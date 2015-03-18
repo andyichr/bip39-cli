@@ -54,4 +54,4 @@ bip39-cli: $(OBJS) bip39-cli.o
 	$(CC) $(CFLAGS) -o bip39-cli bip39-cli.o $(OBJS)
 
 clean:
-	rm -f *.o tests test-openssl
+	rm -f *.o tests test-openssl bip39-cli
