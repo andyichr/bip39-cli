@@ -1,0 +1,7 @@
+#!/bin/bash
+
+yum -y update
+yum -y install gcc \
+               make \
+               check-devel \
+               openssl-devel

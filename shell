@@ -1,0 +1,9 @@
+#!/bin/bash
+
+# start the doshie shell
+
+project_root="$( dirname $0 )"
+
+cd $project_root
+
+./.doshie/doshie "$@"
